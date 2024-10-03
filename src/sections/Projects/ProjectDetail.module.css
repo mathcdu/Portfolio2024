@@ -1,0 +1,133 @@
+
+.projectDetailWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.projectDetailContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.video {
+  width: 100%;
+  height: 300px;
+  max-height: 50vh;
+  margin-bottom: 1rem;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.images img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
+
+.projectDetailContainer h1,
+.projectDetailContainer p {
+  margin: 0;
+  padding: 0;
+}
+
+.projectDetailContainer h1 {
+  font-size: 1.5rem;
+}
+
+.projectDetailContainer p {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.projectDetailContainer a{
+  margin-top: 1rem;
+}
+
+@media (min-width: 769px) {
+  .projectDetailWrapper {
+    height: 100vh;
+  }
+
+  .projectDetailContainer {
+    height: auto;
+    padding: 2rem;
+  }
+
+  .projectDetailContainer h1 {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .media {
+    margin-bottom: 1rem;
+  }
+
+  .video {
+    height: 400px;
+    margin-bottom: 1rem;
+  }
+
+  .images {
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .images img {
+    width: 30%;
+  }
+
+  .projectDetailContainer p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  .projectDetailContainer a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .projectDetailContainer {
+    padding: 1rem;
+  }
+
+  .projectDetailContainer h1 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .projectDetailContainer p {
+    font-size: 0.9rem;
+  }
+
+  .video {
+    height: 300px;
+    max-height: 50vh;
+  }
+
+  .images {
+    gap: 0.5rem;
+  }
+}

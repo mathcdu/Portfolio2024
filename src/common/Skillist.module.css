@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.skillList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .skillItem {
+    flex: 0 1 30%;
+    max-width: 200px;
+  }
+
+  .skillList {
+    justify-content: center;
+  }
+}
+
+.skillItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: rgba(237, 227, 227, 0.8);
+  transition: transform 0.3s, background-color 0.3s;
+  cursor:crosshair;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.skillItem:hover {
+  transform: translateY(-5px);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.skillText {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
