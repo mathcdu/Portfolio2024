@@ -10,12 +10,14 @@ import JSE2 from "../../assets/JSE2.png";
 import JSE3 from "../../assets/JSE3.png";
 import JSE4 from "../../assets/JSE4.png";
 import JSE5 from "../../assets/JSE5.png";
-import VV1 from "../../assets/VV.jpeg";
+import VV1 from "../../assets/VV1.png";
 import VV2 from "../../assets/VV2.png";
 import VV3 from "../../assets/VV3.png";
-import SC1 from "../../assets/SC.jpeg";
+import SP1 from "../../assets/SP1.png";
 import SP2 from "../../assets/SP2.png";
 import SP3 from "../../assets/SP3.png";
+import SP4 from "../../assets/SP4.png";
+import SP5 from "../../assets/SP5.png";
 import VI1 from "../../assets/VI1.png";
 import VI2 from "../../assets/VI2.png";
 import VI3 from "../../assets/VI3.png";
@@ -46,7 +48,7 @@ const projectData = {
   },
   spaceCruiser: {
     title: "Space Cruiser",
-    images: [SC1, SP2, SP3],
+    images: [SP1, SP2, SP3, SP4, SP5],
     description: "A Unity 3D / C# game...",
     link: "https://itch.io/sample-link",
   },
