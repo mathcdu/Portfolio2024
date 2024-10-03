@@ -4,71 +4,67 @@ import ImageModal from "./ImageModal";
 import Carousel from "./Carousel";
 import styles from "./ProjectDetail.module.css";
 
+// Import images directly
+import JSE1 from "../../assets/JSE_Main.png";
+import JSE2 from "../../assets/JSE2.png";
+import JSE3 from "../../assets/JSE3.png";
+import JSE4 from "../../assets/JSE4.png";
+import JSE5 from "../../assets/JSE5.png";
+import VV1 from "../../assets/VV.jpeg";
+import VV2 from "../../assets/VV2.png";
+import VV3 from "../../assets/VV3.png";
+import SC1 from "../../assets/SC.jpeg";
+import SP2 from "../../assets/SP2.png";
+import SP3 from "../../assets/SP3.png";
+import VI1 from "../../assets/VI1.png";
+import VI2 from "../../assets/VI2.png";
+import VI3 from "../../assets/VI3.png";
+import WEB1 from "../../assets/web1.png";
+import WEB2 from "../../assets/web2.png";
+import WEB3 from "../../assets/web3.png";
+import WEB4 from "../../assets/web4.png";
+import WEB5 from "../../assets/web5.png";
+import REACT1 from "../../assets/React1.png";
+import REACT2 from "../../assets/React2.png";
+import REACT3 from "../../assets/React3.png";
+import REACT4 from "../../assets/React4.png";
+import REACT5 from "../../assets/React5.png";
+
 const projectData = {
   jse: {
     title: "Jean-Sebastien et Eric",
-    images: [
-      "/src/assets/JSE.jpeg",
-      "/src/assets/JSE2.jpeg",
-      "/src/assets/JSE3.jpeg",
-      "/src/assets/JSE4.jpeg",
-      "/src/assets/JSE5.jpeg",
-    ],
+    images: [JSE1, JSE2, JSE3, JSE4, JSE5],
     description: "A Unity 2D / C# game...",
     link: "https://itch.io/sample-link",
   },
   vengenceEtVertue: {
     title: "Vengeance et Vertue",
     videoUrl: "https://www.youtube.com/embed/H522SCnQ36I",
-    images: [
-      "/src/assets/VV.jpeg",
-      "/src/assets/VV2.jpeg",
-      "/src/assets/VV3.jpeg",
-    ],
+    images: [VV1, VV2, VV3],
     description: "A Unity 2D / C# game...",
     link: "https://itch.io/sample-link",
   },
   spaceCruiser: {
     title: "Space Cruiser",
-    images: [
-      "/src/assets/SC.jpeg",
-      "/src/assets/SP2.jpeg",
-      "/src/assets/SP3.jpeg",
-    ],
+    images: [SC1, SP2, SP3],
     description: "A Unity 3D / C# game...",
     link: "https://itch.io/sample-link",
   },
   AP: {
     title: "Le voyage infini",
     videoUrl: "https://www.youtube.com/embed/lcaw1oSCEnY",
-    images: [
-      "/src/assets/AP.jpeg",
-      "/src/assets/VI2.jpeg",
-      "/src/assets/VI3.jpeg",
-    ],
-    description: "A After Effects video",
+    images: [VI1, VI2, VI3],
+    description: "An After Effects video",
   },
   IWEB: {
     title: "Quizz animé",
-    images: [
-      "/src/assets/IAWEB1.png",
-      "/src/assets/web2.png",
-      "/src/assets/web3.png",
-      "/src/assets/web4.png",
-      "/src/assets/web5.png",
-    ],
+    images: [WEB1, WEB2, WEB3, WEB4, WEB5],
     description: "HTML / CSS / Javascript",
     link: "https://itch.io/sample-link",
   },
   TTM: {
     title: "TeeTIM",
-    images: [
-      "/src/assets/web123.png",
-      "/src/assets/React2.png",
-      "/src/assets/React3.png",
-      "/src/assets/React4.png",
-      "/src/assets/React5.png",
-    ],
+    images: [REACT1, REACT2, REACT3, REACT4, REACT5],
     description: "HTML / CSS / Javascript",
     link: "https://itch.io/sample-link",
   },
