@@ -8,11 +8,11 @@ const projectData = {
   jse: {
     title: "Jean-Sebastien et Eric",
     images: [
-      "/src/assets/JSE1.png",
-      "/src/assets/JSE2.png",
-      "/src/assets/JSE3.png",
-      "/src/assets/JSE4.png",
-      "/src/assets/JSE5.png",
+      "/src/assets/JSE.jpeg",
+      "/src/assets/JSE2.jpeg",
+      "/src/assets/JSE3.jpeg",
+      "/src/assets/JSE4.jpeg",
+      "/src/assets/JSE5.jpeg",
     ],
     description: "A Unity 2D / C# game...",
     link: "https://itch.io/sample-link",
@@ -21,9 +21,9 @@ const projectData = {
     title: "Vengeance et Vertue",
     videoUrl: "https://www.youtube.com/embed/H522SCnQ36I",
     images: [
-      "/src/assets/VV1.png",
-      "/src/assets/VV2.png",
-      "/src/assets/VV3.png",
+      "/src/assets/VV.jpeg",
+      "/src/assets/VV2.jpeg",
+      "/src/assets/VV3.jpeg",
     ],
     description: "A Unity 2D / C# game...",
     link: "https://itch.io/sample-link",
@@ -31,11 +31,9 @@ const projectData = {
   spaceCruiser: {
     title: "Space Cruiser",
     images: [
-      "/src/assets/SP1.png",
-      "/src/assets/SP2.png",
-      "/src/assets/SP3.png",
-      "/src/assets/SP4.png",
-      "/src/assets/SP5.png",
+      "/src/assets/SC.jpeg",
+      "/src/assets/SP2.jpeg",
+      "/src/assets/SP3.jpeg",
     ],
     description: "A Unity 3D / C# game...",
     link: "https://itch.io/sample-link",
@@ -44,16 +42,16 @@ const projectData = {
     title: "Le voyage infini",
     videoUrl: "https://www.youtube.com/embed/lcaw1oSCEnY",
     images: [
-      "/src/assets/VI1.png",
-      "/src/assets/VI2.png",
-      "/src/assets/VI3.png",
+      "/src/assets/AP.jpeg",
+      "/src/assets/VI2.jpeg",
+      "/src/assets/VI3.jpeg",
     ],
     description: "A After Effects video",
   },
   IWEB: {
     title: "Quizz animé",
     images: [
-      "/src/assets/web1.png",
+      "/src/assets/IAWEB1.png",
       "/src/assets/web2.png",
       "/src/assets/web3.png",
       "/src/assets/web4.png",
@@ -65,7 +63,7 @@ const projectData = {
   TTM: {
     title: "TeeTIM",
     images: [
-      "/src/assets/React1.png",
+      "/src/assets/web123.png",
       "/src/assets/React2.png",
       "/src/assets/React3.png",
       "/src/assets/React4.png",
