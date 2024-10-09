@@ -66,9 +66,6 @@
 }
 
 @media (min-width: 769px) {
-  .projectDetailWrapper {
-    height: 100vh;
-  }
 
   .projectDetailContainer {
     height: auto;
@@ -76,7 +73,6 @@
   }
 
   .projectDetailContainer h1 {
-    margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
