@@ -58,7 +58,7 @@
 }
 
 .projectDetailContainer p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-top: 1rem;
 }
 .projectDetailContainer a{
@@ -76,7 +76,7 @@
   }
 
   .projectDetailContainer h1 {
-    margin-top: 4rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
@@ -119,7 +119,7 @@
   }
 
   .projectDetailContainer p {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 
   .video {

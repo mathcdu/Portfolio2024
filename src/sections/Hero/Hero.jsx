@@ -6,7 +6,7 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-import CV from "../../assets/Croteau_Dufour_Mathieu_CV1 copy.pdf";
+import CV from "../../assets/Croteau_Dufour_Mathieu_CV1_df.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {

@@ -5,7 +5,7 @@ import VV from "../../assets/VV.jpeg";
 import SC from "../../assets/SC.jpeg";
 import AP from "../../assets/AP.jpeg";
 import WEB from "../../assets/IAWEB1.png";
-import TTM from "../../assets/web123.png";
+import TTM from "../../assets/web1234567.png";
 
 function Projects() {
   return (
