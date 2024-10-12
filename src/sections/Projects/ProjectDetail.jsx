@@ -38,7 +38,7 @@ const projectData = {
     images: [JSE1, JSE2, JSE3, JSE4, JSE5],
     description:
       "Cette application web interactive, développée avec HTML, SASS et React, permet aux utilisateurs de parcourir une collection de bandes dessinées. Chaque bande dessinée peut être aimée, commentée et les utilisateurs peuvent également aimer les commentaires. Les commentaires sont automatiquement classés en fonction du nombre de mentions ‘J’aime’, offrant ainsi une meilleure visibilité aux plus populaires. Pour ajouter des commentaires, une connexion via un compte Google est requise. L’application est entièrement hébergée sur Firebase, assurant une gestion sécurisée des utilisateurs et des données",
-    link: "https://itch.io/sample-link",
+    link: "https://tp2-jse.web.app/",
   },
   vengenceEtVertue: {
     title: "Vengeance et Vertue",
@@ -53,7 +53,7 @@ const projectData = {
     images: [SP1, SP2, SP3, SP4, SP5],
     description:
       "Jeu 3D de type ‘racer’ développé avec Unity, où un vaisseau spatial doit franchir une série de checkpoints dans l’espace. À chaque checkpoint, le vaisseau accélère, augmentant la difficulté. Le joueur doit éviter des obstacles tels que des tunnels, des astéroïdes, et des ennemis, tout en tentant de franchir tous les checkpoints sans mourir.",
-    link: "https://itch.io/sample-link",
+    link: "https://mathcdu.itch.io/space-cruiser",
   },
   AP: {
     title: "Le voyage infini",
@@ -67,14 +67,13 @@ const projectData = {
     images: [WEB1, WEB2, WEB3, WEB4, WEB5],
     description:
       "Quizz animé développé avec HTML, CSS et JavaScript, présentant une série de questions sur le monde du web, principalement axées sur HTML, CSS et JavaScript. Le projet intègre plusieurs animations CSS dynamiques et un système de score en continu pour suivre les performances des utilisateurs.",
-    link: "https://itch.io/sample-link",
+    link: "https://unquizanime.netlify.app/",
   },
   TTM: {
     title: "TeeTIM",
     images: [REACT1, REACT2, REACT3, REACT4, REACT5],
     description:
       "Application web développée avec HTML, CSS, JavaScript et PHP, dédiée à la vente de chandails. Le site inclut un système de panier d’achat permettant aux utilisateurs d’ajouter et de supprimer des articles, ainsi que de filtrer les chandails par catégories. Ce projet a été l’occasion d’expérimenter avec PHP pour mettre en œuvre ces fonctionnalités essentielles.",
-    link: "https://itch.io/sample-link",
   },
 };
 
