@@ -4,7 +4,6 @@ import ImageModal from "./ImageModal";
 import Carousel from "./Carousel";
 import styles from "./ProjectDetail.module.css";
 
-// Import images directly
 import JSE1 from "../../assets/JSE_Main.png";
 import JSE2 from "../../assets/JSE2.png";
 import JSE3 from "../../assets/JSE3.png";
@@ -135,9 +134,11 @@ function ProjectDetail() {
           <p>{project.description}</p>
         </div>
 
-        <a href={project.link} target="_blank" rel="noopener noreferrer">
-          View Project on itch.io
-        </a>
+        {project.link && (
+          <a href={project.link} target="_blank" rel="noopener noreferrer">
+            Visiter le site...
+          </a>
+        )}
       </div>
 
       <ImageModal
