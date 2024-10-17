@@ -45,7 +45,7 @@ const projectData = {
     images: [VV1, VV2, VV3],
     description:
       "Jeu 2D de type platformer, développé avec Unity dans le cadre d’un cours de jeu en équipe. Le jeu propose une combinaison de combats, de puzzles avec des plateformes destructibles, et des affrontements contre des boss. J’ai assuré la programmation complète du jeu ainsi qu’une partie de l’intégration, garantissant un gameplay fluide et cohérent.",
-    link: "https://itch.io/sample-link",
+    link: "https://mathcdu.itch.io/vengeance-vertu",
   },
   spaceCruiser: {
     title: "Space Cruiser",
